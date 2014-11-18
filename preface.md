@@ -40,8 +40,8 @@ JRockit的相关工作越来越多。2001年的时候，处理咨询业务的工
 * **[第5章：基准测试与性能调优][5]**    该章会针对使用基准测试和制定性能目标的重要性进行讨论，此外还对一些针对Java的工业级基准测试套件进行介绍，最后以JRockit JVM为例介绍如何根据基准测试的结果对应用程序和JVM进行调优，以及相关命令行参数的书用。
 * **[第6章: JRockit Mission Control套件][6]**    第6章对JRockit Mission Control工具套件进行了介绍，包括启动和各种详细配置。此外，还介绍了如何在Eclipse中运行JRockit Mission Control，以及如何让Eclipse运行在JRockit JDK上。在该章中，还介绍了与通过JRockit MissionControl远程访问JRockit JVM和故障处理相关的内容。
 * **[第7章 Management Console][7]**    第7章对JRocki Mission Control的Management Console组件进行介绍，讲解了诊断命令的概念与如何在线监控一个JVM示例。在该章中，还对触发器规则和通知做了介绍，最后讲解了如何国展Management Console。
-* **[第8张 运行时分析器][8]**    第8章对JRockit运行时分析器（JRockit Runtime Analyzer, JRA）进行了简单介绍。JRA是一款可以按需定制的分析框架，用于对JRockit以及运行在其中的应用程序的执行状况做记录，以便进行离线分析。具体的记录内容包括方法、锁、垃圾回收器、优化信息、对象统计，以及延迟事件等信息。得到这些记录信息后，就可以针对问题进行离线分析了。
-
+* **[第8章 运行时分析器][8]**    第8章对JRockit运行时分析器（JRockit Runtime Analyzer, JRA）进行了简单介绍。JRA是一款可以按需定制的分析框架，用于对JRockit以及运行在其中的应用程序的执行状况做记录，以便进行离线分析。具体的记录内容包括方法、锁、垃圾回收器、优化信息、对象统计，以及延迟事件等信息。得到这些记录信息后，就可以针对问题进行离线分析了。
+* **[第9章 Flight Recorder][9]** 第9章对飞行记录仪（JRockit Flight Recorder，JFR）进行了讲解。JFR是新版本JRockit Mission Control套件中对JRA升级。在该章中，详细介绍了JFR的功能，与JRA的区别，以及如何扩展JFR。
 
 
 
@@ -56,3 +56,4 @@ JRockit的相关工作越来越多。2001年的时候，处理咨询业务的工
 [6]:    ./chap6/6.md#6    "第6章: JRockit Mission Control套件"
 [7]:    ./chap7/7.md#7    "第7章：管理控制台"
 [8]:    ./chap8/8.md#8    "第8章：运行时分析器"
+[9]:    ./chap9/9.md#9    "第9章：飞行记录仪"

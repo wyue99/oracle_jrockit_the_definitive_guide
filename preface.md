@@ -42,18 +42,24 @@ JRockit的相关工作越来越多。2001年的时候，处理咨询业务的工
 * **[第7章 Management Console][7]**    第7章对JRocki Mission Control的Management Console组件进行介绍，讲解了诊断命令的概念与如何在线监控一个JVM示例。在该章中，还对触发器规则和通知做了介绍，最后讲解了如何国展Management Console。
 * **[第8章 运行时分析器][8]**    第8章对JRockit运行时分析器（JRockit Runtime Analyzer, JRA）进行了简单介绍。JRA是一款可以按需定制的分析框架，用于对JRockit以及运行在其中的应用程序的执行状况做记录，以便进行离线分析。具体的记录内容包括方法、锁、垃圾回收器、优化信息、对象统计，以及延迟事件等信息。得到这些记录信息后，就可以针对问题进行离线分析了。
 * **[第9章 Flight Recorder][9]** 第9章对飞行记录仪（JRockit Flight Recorder，JFR）进行了讲解。JFR是新版本JRockit Mission Control套件中对JRA升级。在该章中，详细介绍了JFR的功能，与JRA的区别，以及如何扩展JFR。
+* **[第10章 Memory Leak Detector][10]** 在该章中对JRockit Mission Control套件中的最后一个工具JRockit Memory Leak Detector进行介绍。具体来说，在该章中，介绍了内存泄漏的概念，Memory Leak Detector的适用场景和内部实现。
 
 
 
 
 
 
-[1]:    ./chap1/1.md#1    "第1章：起步"
-[2]:    ./chap2/2.md#2    "第2章：自适应代码生成"
-[3]:    ./chap3/3.md#3    "第3章：自适应内存管理"
-[4]:    ./chap4/4.md#4    "第4章：线程与同步"
-[5]:    ./chap5/5.md#5    "第5章：基准测试与性能调优"
-[6]:    ./chap6/6.md#6    "第6章: JRockit Mission Control套件"
-[7]:    ./chap7/7.md#7    "第7章：管理控制台"
-[8]:    ./chap8/8.md#8    "第8章：运行时分析器"
-[9]:    ./chap9/9.md#9    "第9章：飞行记录仪"
+
+
+
+
+[1]:    ./chap1/1.md#1      "第1章：起步"
+[2]:    ./chap2/2.md#2      "第2章：自适应代码生成"
+[3]:    ./chap3/3.md#3      "第3章：自适应内存管理"
+[4]:    ./chap4/4.md#4      "第4章：线程与同步"
+[5]:    ./chap5/5.md#5      "第5章：基准测试与性能调优"
+[6]:    ./chap6/6.md#6      "第6章: JRockit Mission Control套件"
+[7]:    ./chap7/7.md#7      "第7章：管理控制台"
+[8]:    ./chap8/8.md#8      "第8章：运行时分析器"
+[9]:    ./chap9/9.md#9      "第9章：飞行记录仪"
+[10]:   ./chap10/10.md#10   "第10章：Memory Leak Detector"
